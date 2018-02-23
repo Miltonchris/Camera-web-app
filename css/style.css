@@ -1,0 +1,52 @@
+body{
+  margin:0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.wrap{
+  width: 500px;
+  margin: 30px auto;
+}
+.navbar{
+  background: #007bff;
+  height: 60px;
+  width: 100%;
+  color: #fff;
+}
+.navbar h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+.btn{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+select{
+  color: white;
+}
+
+#canvas{
+  display: none;
+}
+.botom{
+  max-width: 960px;
+  margin: auto;
+  padding: 10px;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+#photos{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+#photos img {
+  border: 2px solid #444;
+  border-radius:3px; 
+  width: 100%;
+}
